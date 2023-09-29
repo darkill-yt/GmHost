@@ -1,0 +1,13 @@
+# Ignorer tous les fichiers du dossier "logs"
+/logs/*
+/logs/
+
+# Ignorer le fichier "config.js"
+config.js
+
+# Ignorer tous les fichiers du dossier "autres"
+/autres/
+/autres/*
+
+/node_modules/
+/node_modules/*
