@@ -6,12 +6,10 @@ const loadEvents = require("./loaders/loadEvents")
 const loadContextMenu = require("./loaders/loadContextMenu")
 const config = require("./config")
 const process = require("node:process")
-const fs = require('fs');
-const path = require('path')
-const readline = require('readline')
+const logs = require("./logs")
 
 bot.web = new Discord.WebhookClient({ url: 'https://discord.com/api/webhooks/1138400422172840037/AJYgFVrKK_GyLbBiXLAyLrk0CUNJLs-dnSJRU6FQ_1Dxz6lZpSKgA13E-mdg5ua4PF-i' });
-logs(bot)
+//logs(bot)
 
 const em = new Discord.EmbedBuilder()
 .setTitle("Démarrage du bot")
